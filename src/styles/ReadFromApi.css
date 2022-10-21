@@ -1,0 +1,13 @@
+h1{
+    font-size: 35px;
+    padding: 50px;
+    background: linear-gradient(90deg, rgba(149,61,203,1) 19%, rgba(203,61,95,1) 41%, rgba(255,179,0,1) 77%);
+    color:#fff;
+    text-align: center;
+
+}
+
+pre{
+    font-size: 1.1rem;
+    margin-top: 30px;
+}
