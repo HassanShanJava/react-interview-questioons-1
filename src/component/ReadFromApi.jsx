@@ -24,6 +24,7 @@ const ReadFromApi = () => {
 
     useEffect(()=>{
         fetchData().then((data)=>{
+            console.log(JSON.parse(data));
             setRandomData(data ||"no data")
         })
 
@@ -33,7 +34,7 @@ const ReadFromApi = () => {
     <div>
         {/* this did it on console, noe on screen need state & for on page loaod */}
 
-        <h1>Read API Data on Load</h1>
+        <h1>2. Read API Data on Load</h1>
       <pre>{randomData}</pre>
     </div>
   );
